@@ -5,7 +5,6 @@ metadata:
   labels:
     app: go-sample-app
   name: go-sample-app
-  namespace: dev
 spec:
   ports:
   - name: 8080-8080

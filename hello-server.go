@@ -8,7 +8,7 @@ import (
 )
 
 func HelloWorldHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Hello, pipeline!\n")
+	fmt.Fprintf(w, "Hello, Pipeline!\n")
 }
 
 func main() {
